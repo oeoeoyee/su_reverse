@@ -169,4 +169,14 @@ h1 {
   h1 {
     font-size: 8.6956521739vw;
   }
+}
+
+h4 {
+  font-size: 1.25vw;
+  font-weight: bold;
+}
+@media screen and (max-width: 414px) {
+  h4 {
+    font-size: 5.7971014493vw;
+  }
 }/*# sourceMappingURL=style.css.map */
