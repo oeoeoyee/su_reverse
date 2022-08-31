@@ -1,0 +1,36 @@
+@import url(../css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+// mixin
+@import 'mixin/mixin';
+
+// var
+@import 'base/font';
+@import 'base/color';
+@import 'base/other';
+
+// compoent
+@import 'component/btn';
+
+// layout
+@import 'layout/headerfooter';
+
+// page
+
+
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.wrapper{
+    // @include size(1920);
+    width: size(1920);
+}
+
+h1{
+    @include h1();
+}
+
+
+

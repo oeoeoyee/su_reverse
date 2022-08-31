@@ -1,0 +1,43 @@
+@mixin btn($w, $h, $fz, $bgc, $color, $bgc_hover) {
+    width: size($w);
+    height: size($h);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: size($h);
+    font-size: size($fz);
+    background-color: $bgc;
+    color: $color;
+    cursor: pointer;
+
+    // input用
+    border: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 0;
+
+    transition: all .3s ease;
+    &:hover{
+        background: $bgc_hover;
+    }
+}
+
+.btn_s_default{
+    @include btn(100, 40, 18, $white, $lightbasic, $graytip);
+    border: 1px solid $darkline;
+}
+
+.btn_s_remind{
+    @include btn(100, 40, 18, $darkbtn, $white, rgb(255, 52, 52));
+}
+
+.btn_m{
+    @include btn(250, 40, 18, $darkbtn, $white, rgb(255, 52, 52));
+}
+
+.btn_l{
+    @include btn(530, 55, 18, $darkbtn, $white, red);
+}
+
+.btn_xl{
+    @include btn(685, 55, 18, $darkbtn, $white, red);
+}

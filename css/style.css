@@ -1,0 +1,172 @@
+@import url(../css/reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+.btn_s_default {
+  width: 5.2083333333vw;
+  height: 2.0833333333vw;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.0833333333vw;
+  font-size: 0.9375vw;
+  background-color: #FFFFFF;
+  color: #292929;
+  cursor: pointer;
+  border: none;
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 0;
+  transition: all 0.3s ease;
+  border: 1px solid #8c8c8c;
+}
+.btn_s_default:hover {
+  background: #D6D6D6;
+}
+
+.btn_s_remind {
+  width: 5.2083333333vw;
+  height: 2.0833333333vw;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.0833333333vw;
+  font-size: 0.9375vw;
+  background-color: #AE2000;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+.btn_s_remind:hover {
+  background: rgb(255, 52, 52);
+}
+
+.btn_m {
+  width: 13.0208333333vw;
+  height: 2.0833333333vw;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.0833333333vw;
+  font-size: 0.9375vw;
+  background-color: #AE2000;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+.btn_m:hover {
+  background: rgb(255, 52, 52);
+}
+
+.btn_l {
+  width: 27.6041666667vw;
+  height: 2.8645833333vw;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.8645833333vw;
+  font-size: 0.9375vw;
+  background-color: #AE2000;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+.btn_l:hover {
+  background: red;
+}
+
+.btn_xl {
+  width: 35.6770833333vw;
+  height: 2.8645833333vw;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.8645833333vw;
+  font-size: 0.9375vw;
+  background-color: #AE2000;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+.btn_xl:hover {
+  background: red;
+}
+
+/* --------------- header ---------------*/
+header {
+  display: flex;
+  width: 100vw;
+  background-color: #3F3F3F;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 414px) {
+  header {
+    justify-content: left;
+  }
+}
+header .logo {
+  margin-right: 32.65625vw;
+}
+header .logo img {
+  width: 3.4375vw;
+}
+@media screen and (max-width: 414px) {
+  header .logo img {
+    width: 7.729468599vw;
+  }
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 414px) {
+  header nav ul {
+    display: none;
+  }
+}
+header nav ul li {
+  margin-right: 1.8229166667vw;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #F0EFEB;
+  font-size: 1.25vw;
+  font-weight: bold;
+  font-weight: normal;
+}
+@media screen and (max-width: 414px) {
+  header nav ul li a {
+    font-size: 5.7971014493vw;
+  }
+}
+header nav ul li a i {
+  font-size: 2.6041666667vw;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+}
+
+h1 {
+  font-size: 3.3333333333vw;
+  font-weight: bold;
+}
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 8.6956521739vw;
+  }
+}/*# sourceMappingURL=style.css.map */
